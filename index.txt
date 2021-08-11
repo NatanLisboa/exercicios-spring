@@ -1,1 +1,2 @@
 Exerc - 1 -> Controllers, Request Body -> mensagem-json
+Exerc - 2 -> Request Param -> query-parameters-object
