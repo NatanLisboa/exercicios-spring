@@ -1,2 +1,3 @@
 Exerc - 1 -> Controllers, Request Body -> mensagem-json
 Exerc - 2 -> Request Param -> query-parameters-object
+Exerc - 3 -> Constructor Injection -> constructor-dependency-injection
