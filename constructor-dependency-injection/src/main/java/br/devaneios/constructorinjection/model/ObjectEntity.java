@@ -1,6 +1,5 @@
 package br.devaneios.constructorinjection.model;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import lombok.*;
 
 @Getter
