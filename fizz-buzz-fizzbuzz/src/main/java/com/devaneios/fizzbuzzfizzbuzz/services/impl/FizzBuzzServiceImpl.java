@@ -5,6 +5,8 @@ import com.devaneios.fizzbuzzfizzbuzz.services.FizzBuzzService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+
 @Service
 @AllArgsConstructor
 public class FizzBuzzServiceImpl implements FizzBuzzService {
@@ -14,5 +16,10 @@ public class FizzBuzzServiceImpl implements FizzBuzzService {
     @Override
     public void createFizzBuzzNumber(int number) {
         this.fizzBuzzRepository.createFizzBuzzNumber(number);
+    }
+
+    @Override
+    public ArrayList<Integer> getAllFizzBuzzNumbers() {
+        return this.fizzBuzzRepository.getAllFizzBuzzNumbers();
     }
 }

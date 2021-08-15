@@ -7,6 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 
 @Repository
 public interface FizzRepository extends CrudRepository<FizzNumber, Integer> {
@@ -15,5 +16,8 @@ public interface FizzRepository extends CrudRepository<FizzNumber, Integer> {
     @Transactional
     @Query(value="INSERT INTO tb_fizz(number) VALUES (:number)", nativeQuery = true)
     void createFizzNumber(int number);
+
+    @Query(value = "SELECT number FROM tb_fizz", nativeQuery = true)
+    ArrayList<Integer> getAllFizzNumbers();
 
 }
