@@ -15,11 +15,11 @@ import java.util.ArrayList;
 @AllArgsConstructor
 public class StorageController {
 
-    private StorageService storageService;
+    private final StorageService storageService;
 
     @PostMapping
     public ResponseEntity<ArrayList<Integer>> createNumbers(@RequestBody ArrayList<Integer> numbers){
-        numbers.forEach(number -> this.storageService.chooseService(number));
+        numbers.forEach(this.storageService::chooseService);
         return ResponseEntity.ok(numbers);
     }
      

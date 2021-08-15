@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class StorageServiceImpl implements StorageService {
 
-    private FizzService fizzService;
-    private BuzzService buzzService;
-    private FizzBuzzService fizzBuzzService;
+    private final FizzService fizzService;
+    private final BuzzService buzzService;
+    private final FizzBuzzService fizzBuzzService;
 
     @Override
     public void chooseService(int number) {

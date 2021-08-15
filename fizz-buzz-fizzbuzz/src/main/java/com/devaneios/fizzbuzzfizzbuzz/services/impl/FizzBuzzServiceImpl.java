@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class FizzBuzzServiceImpl implements FizzBuzzService {
 
-    private FizzBuzzRepository fizzBuzzRepository;
+    private final FizzBuzzRepository fizzBuzzRepository;
 
     @Override
     public void createFizzBuzzNumber(int number) {

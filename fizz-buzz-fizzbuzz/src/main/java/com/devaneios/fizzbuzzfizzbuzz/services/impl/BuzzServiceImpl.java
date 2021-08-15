@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class BuzzServiceImpl implements BuzzService {
 
-    private BuzzRepository buzzRepository;
+    private final BuzzRepository buzzRepository;
 
     @Override
     public void createBuzzNumber(int number) {
