@@ -4,3 +4,5 @@ Exerc - 3 -> Constructor Injection -> constructor-dependency-injection
 Exerc - 4 -> InputStream -> file-endpoint
 Exerc - 5 -> Service, Repository, Query, Modifying, Transactional -> fizz-buzz-fizzbuzz
 Exerc - 6 -> fizz-buzz-fizzbuzz-somatoria
+Exerc - 8 -> ResponseStatus, Exceções para retornar status HTTP -> even-numbers-endpoint
+
