@@ -5,4 +5,4 @@ Exerc - 4 -> InputStream -> file-endpoint
 Exerc - 5 -> Service, Repository, Query, Modifying, Transactional -> fizz-buzz-fizzbuzz
 Exerc - 6 -> fizz-buzz-fizzbuzz-somatoria
 Exerc - 8 -> ResponseStatus, Exceções para retornar status HTTP -> even-numbers-endpoint
-
+Exerc - 9 -> Relacionamentos N:N, OneToMany, ManyToOne, Builder, Temporal -> many-to-many-relationship
