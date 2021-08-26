@@ -5,24 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80b3aec2-b872-4741-906b-8356c3b4cb0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/ManyToManyRelationshipApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/controllers/ChampionshipController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/controllers/ClubController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/dto/ChampionshipDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/dto/ClubDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/entities/Championship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/entities/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/entities/ClubChampionshipRelationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/enums/ChampionshipFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/repositories/ChampionshipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/repositories/ClubRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/services/ChampionshipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/services/ClubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/services/impl/ChampionshipServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devaneios/manytomanyrelationship/services/impl/ClubServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/controllers/PolygonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/controllers/PolygonSideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/dto/PolygonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/entitites/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/entitites/PolygonSide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/exceptions/NonPositiveSideValueReceivedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/exceptions/PolygonNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/exceptions/PolygonNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/exceptions/TriangleNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/repositories/PolygonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/repositories/PolygonSideRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/services/PolygonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/services/impl/PolygonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polygon/src/main/java/com/devaneios/polygon/services/impl/PolygonSideServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../turma-de-elite/turma-de-elite-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
